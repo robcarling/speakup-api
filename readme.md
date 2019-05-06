@@ -1,0 +1,3 @@
+# Speakup API
+
+dotnet run
