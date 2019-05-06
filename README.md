@@ -1,8 +1,8 @@
 # Speakup API
 
 **Run the App**
-
-Navigate to project folder.<br />
+----
+  Navigate to project folder locally:
 
 `dotnet run`<br /><br />
 
