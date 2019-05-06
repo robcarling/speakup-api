@@ -6,7 +6,7 @@
 
 `dotnet run`<br /><br />
 
-**Get All Comments**
+**Endpoint: Get All Comments**
 ----
   Returns json data of all comments.
 
@@ -37,7 +37,7 @@
 
  <br /> <br />
 
-**Add a Comment**
+**Endpoint: Add a Comment**
 ----
   Add a comment.
 
