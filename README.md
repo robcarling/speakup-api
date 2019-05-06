@@ -1,5 +1,11 @@
 # Speakup API
 
+**Run the App**
+
+Navigate to project folder.<br />
+
+`dotnet run`<br /><br />
+
 **Get All Comments**
 ----
   Returns json data of all comments.
