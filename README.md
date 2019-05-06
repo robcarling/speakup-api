@@ -6,7 +6,7 @@
 
 * **URL**
 
-  /comments/
+  /api/comments/
 
 * **Method:**
 
@@ -25,78 +25,46 @@
   * **Code:** 200 <br />
     **Content:** `{ id : 1, name : "Michael Jordan", commentBody : "This is the comment from this user" }`
  
-* **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
 
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/comments",
-      dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
-  ```
 
 **Add a Comment**
 ----
-  Add 
+  Add a comment.
 
 * **URL**
 
-  /comments/
+  /api/comments/
 
 * **Method:**
 
   `POST`
   
-*  **URL Params**
+* **URL Params**
 
   None
 
 * **Data Params**
 
-  Name, Comment Body
+  * name: Name of the commenter
+  * commentBody: The comment itself
 
 * **Success Response:**
 
   * **Code:** 200 <br />
     **Content:** `{ id : 1, name : "Michael Jordan", commentBody : "This is the comment from this user" ... }`
  
-* **Error Response:**
+* **Sample Request:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/comments",
-      dataType: "json",
-      type : "POST",
-      success : function(r) {
-        console.log(r);
-      }
-    });
+  ```
+  {
+    "name": "Rob",
+    "commentBody": "This is a new comment."
+  }
   ```
 
 
 ## To-Dos
 
-Add Swagger Documentation
+* Additional Validation
+* Add Swagger Documentation

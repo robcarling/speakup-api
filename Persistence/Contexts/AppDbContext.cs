@@ -16,8 +16,8 @@ namespace Speakup.API.Persistence.Contexts
             builder.Entity<Comment>().ToTable("Comments");
             builder.Entity<Comment>().HasKey(p => p.Id);
             builder.Entity<Comment>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-            builder.Entity<Comment>().Property(p => p.Name).IsRequired().HasMaxLength(30);
             builder.Entity<Comment>().Property(p => p.CommentBody).IsRequired().HasMaxLength(200);
+            builder.Entity<Comment>().Property(p => p.Name).IsRequired().HasMaxLength(30);
 
             builder.Entity<Comment>().HasData
             (
