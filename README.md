@@ -22,13 +22,14 @@
 
 * **Success Response:**
 
-  * **Code:** 200
+  * **Code:** 200 <br />
     **Content:** `{ id : 1, name : "Michael Jordan", commentBody : "This is the comment from this user" }`
  
 * **Sample Request:**
 
   `curl -X GET "https://localhost:5001/api/comments" -H "accept: application/json" -k`
 
+ <br /> <br />
 
 **Add a Comment**
 ----
@@ -53,7 +54,7 @@
 
 * **Success Response:**
 
-  * **Code:** 200
+  * **Code:** 200 <br />
     **Content:** `{ id : 1, name : "Michael Jordan", commentBody : "This is the comment from this user" ... }`
  
 * **Sample Request:**
