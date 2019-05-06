@@ -1,4 +1,4 @@
-#Speakup API
+##Speakup API
 
 **Get All Comments**
 ----
@@ -14,18 +14,20 @@
   
 *  **URL Params**
 
-  None
+    None
 
 *  **Data Params**
 
-  None
+    None
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200
     **Content:** `{ id : 1, name : "Michael Jordan", commentBody : "This is the comment from this user" }`
  
+* **Sample Request:**
 
+  `curl -X GET "https://localhost:5001/api/comments" -H "accept: application/json" -k`
 
 
 **Add a Comment**
@@ -46,12 +48,12 @@
 
 * **Data Params**
 
-  * name: Name of the commenter
-  * commentBody: The comment itself
+  * `name:` Name of the commenter
+  * `commentBody:` The comment itself
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200
     **Content:** `{ id : 1, name : "Michael Jordan", commentBody : "This is the comment from this user" ... }`
  
 * **Sample Request:**
