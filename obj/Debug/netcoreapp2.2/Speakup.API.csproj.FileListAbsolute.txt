@@ -1,0 +1,14 @@
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.csprojAssemblyReference.cache
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.csproj.CoreCompileInputs.cache
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.RazorAssemblyInfo.cache
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.RazorAssemblyInfo.cs
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.AssemblyInfoInputs.cache
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.AssemblyInfo.cs
+/Users/robcarling/Projects/Speakup.API/bin/Debug/netcoreapp2.2/Speakup.API.deps.json
+/Users/robcarling/Projects/Speakup.API/bin/Debug/netcoreapp2.2/Speakup.API.runtimeconfig.json
+/Users/robcarling/Projects/Speakup.API/bin/Debug/netcoreapp2.2/Speakup.API.runtimeconfig.dev.json
+/Users/robcarling/Projects/Speakup.API/bin/Debug/netcoreapp2.2/Speakup.API.dll
+/Users/robcarling/Projects/Speakup.API/bin/Debug/netcoreapp2.2/Speakup.API.pdb
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.RazorTargetAssemblyInfo.cache
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.dll
+/Users/robcarling/Projects/Speakup.API/obj/Debug/netcoreapp2.2/Speakup.API.pdb

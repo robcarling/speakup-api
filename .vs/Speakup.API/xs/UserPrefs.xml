@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{94E8B998-41D1-4898-A494-A5B886B5961F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Speakup.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Speakup.API" expanded="True">
+            <Node name="Speakup.API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CommentsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
